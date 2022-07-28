@@ -1,0 +1,98 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 80px 105px;
+  background-color: #F7F9FA;
+}
+
+.posts {
+  margin: 0 auto;
+  padding: 0 50px;
+  max-width: 1240px;
+}
+
+.title {
+  margin: 0;
+  margin-bottom: 50px;
+  font-family: "Fraunces", sans-serif;
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 50px;
+  letter-spacing: 0.2px;
+  color: #1F1F1F;
+}
+
+.card {
+  display: inline-block;
+  margin-right: 30px;
+  background-color: #FFFFFF;
+  max-width: 355px;
+}
+.card:last-child {
+  margin-right: 0;
+}
+
+.information {
+  padding: 25px;
+}
+
+.link {
+  display: inline-block;
+  margin-bottom: 10px;
+  max-width: auto;
+  text-decoration: none;
+  background-color: #E6F7FF;
+  padding: 5px 10px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.4px;
+  color: #2C90C9;
+}
+
+.card-title {
+  margin: 0;
+  margin-bottom: 10px;
+  text-transform: capitalize;
+  font-family: "Fraunces", sans-serif;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 31px;
+  letter-spacing: 0.2px;
+  color: #1F1F1F;
+}
+
+.uppercase {
+  text-transform: none;
+}
+
+.card-text {
+  margin: 0;
+  margin-bottom: 15px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  color: #1F1F1F;
+}
+
+.card-data {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  color: #1F1F1F;
+}/*# sourceMappingURL=style.css.map */
